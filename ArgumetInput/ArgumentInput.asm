@@ -8,6 +8,6 @@ _start:
 	pop	ecx		; Get the second actual argument
 	pop	edx		; Get the thirt actual argument
 
-	mov	eax,1		; sys_exit
-	mov	ebx,0		; Error code 0
+	mov	eax,1	; sys_exit
+	mov	ebx,0	; Error code 0
 	int	80h		; Call kernel
